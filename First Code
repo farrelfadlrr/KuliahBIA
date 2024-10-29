@@ -1,10 +1,21 @@
-# create two 2x3 matrices.
+# Create two 2x3 matrices.
 matrix1 <- matrix(c(1, 2, 3, 4, 5, 6), nrow = 3)
 matrix2 <- matrix(c(7, 8, 9, 10, 11, 12,) nrow = 3)
 
-# print
+# Print
 print("the first matrix is:")
 print(matrix1)
 print("the second matrix is:")
 print(matrix2)
 
+# Add the metrices
+result1 <- matrix1 + matrix2
+
+# Subtract the matrices
+result2 <- matrix1 - matrix2
+
+# Multiply the matrices
+result3 <- matrix1 * matrix2
+
+# Divide the matrices
+result4 <- matrix1 / matrix2
